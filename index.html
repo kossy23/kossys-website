@@ -1,142 +1,89 @@
 <!DOCTYPE html>
 <html>
-<head>
-     <title>Kossy's First Website</title>
-</head>
-  <body>
-    <header>
-    <h1>Faith Chesire</h1>
-     <h2>About me</h2>
-       <p>Hello,I am Faith a student at Kenyatta University pursuing <strong>Bachelor of science in Mathematics and Computer science</strong>, I really like it.</p>
-        <img src="JPG file"  alt="my photo"  width="300">
-  </header>
-     <h2>My Interest</h2>
+   <head>
+       <title>Kenyatta University</title>
+       <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <header>
+         <p>Welcome to my website</p>
+    <h1>KENYATTA UNIVERSITY</h1>
+    <p>Kenyatta University offers higher education in different fields.
+        It is located along the Thika superhighway.
+    </p>
+    <nav>
+    <a href="#courses">Courses</a>
+    <br><br>
+    <a href="students">Students</a>
+    </nav>
+    </header>
+    <section id="courses"></section>
+    <br><br>
+      <section id="students"></section>
+    <main>
+    <section>
+        <h2>The Main Courses it offers Are:</h2>
+        <ol>
+            <li>Medicine</li>
+            <li>Engineering</li>
+            <li>Education</li>
+            <li>Computer Science</li>
+            <li>Economics</li>
+        </ol>
+        </section>
+        <section>
+        <h2>Students Details</h2>
+        <form>
+         <label>Name:</label>
+         <input type="text">
+         <br><br>
+         <label>Email:</label>
+         <input type="email">
+         <br><br>
+         <label>Message:</label>
+         <textarea  rows="2" cols="5"></textarea>
+  <h3>Which course are you interested in?</h3>
+     <label>
+        <input type="radio" name="course" value="medicine">
+Medicine
+     </label>
+     <br><br>
+     <label>
+        <input type="radio" name="course"  value="engineering">
+        Engineering
+     </label>
+     <br><br>
+     <label>
+        <input type="radio" name="course" value="education">
+        Education
+     </label>
+     <br><br>
+     <label>
+      <input type="radio" name="course" value="computer science">
+      Computer Science    
+     </label>
+     <br><br>
+     <label>
+      <input type="radio" name="course" value="economics">
+      Economics
+     </label>
+     <br><br>
+     <button type="submit">Submit</button>
+   </form>
+     </section>
+     </main>
+   <div class="box-one">Computer Science</div>
+   <div class="box-two" >Mathematics</div>
+   <div class="box-three">Statistics</div>
+     <nav>
+     <h2>The Kenyatta University links</h2>
      <ul>
-      <li>Mathematics</li>
-      <li>Computer Science</li>
-      <li>Programming</li>
-      <li>Machine Learning</li>
+    <li> <a href="https://www.google.com">Google</a></li>
+    <li><a href="https://www.facebook.com">Facebook</a></li>
      </ul>
-     <h2>My Links</h2>
-     <ul>
-     <li><a href="https://www.google.com">Visit Google</a></li>
-     <li><a href="https://www.intagram.com">Visit Instagram</a></li>
-     </ul>
-     <h2>My Contacts</h2>
-     <form>
-      <label>Name:</label>
-      <input type="text">
-      <br><br>
-      <label>Email:</label>
-      <input type="text">
-      <br><br>
-      <label>Message:</label>
-      <input type="text">
-      <br><br>
-      <textarea= rows="5" cols="30"></textarea>
-      <br><br>
-      <button>submit</button>
-     </form>
-     <h2>About my Learning</h2>
-
-     <h3>interests</h3>
-     <label>
-      <input type="radio" name="interest" value="machine learning">
-      Machine Learning
-     </label>
-     <br><br>
-     <label>
-      <input type="radio" name="interest" value="networking">
-      Networking
-     </label>
-     <br><br>
-     <label>
-      <input type="radio" name="interest" value="cloud">
-      Cloud
-     </label>
-     <br><br>
-
-     <h3>languages</h3>
-<label>
-<input type="checkbox" name="languages" value="mathematics">
-Mathematics
-</label>
-<br><br>
-<label>
-  <input type="checkbox" name="langusge" value="Statistics">
-  Statistics
-</label>
-<br><br>
-<label>
-  <input type="checkbox" name="language"  value="programming">
-  Programming
-</label>
-<br><br>
-
-<h3>favourite subject</h3>
-<select>
-  <option>Mathematics</option>
-  <option>Statistics</option>
-  <option>Probability</option>
-  <option>Algebra</option>
-</select>
-
-<h2>My Skills</h2>
-<table border="1">
-  <tr>
-    <th>skill</th>
-    <th>level</th>
-  </tr>
-  <tr>
-    <td>HTML</td>
-    <td>Beginner</td>
-  </tr>
-  <tr>
-    <td>Python</td>
-    <td>Beginner</td>
-  </tr>
-  <tr>
-    <td>Java Script</td>
-    <td>Beginner</td>
-  </tr>
-  <tr>
-    <td>Mathematics</td>
-    <td>Beginner</td>
-  </tr>
-  <tr>
-    <td>C language</td>
-    <td>Beginner</td>
-  </tr>
-</table>
-        <h2>My Goals</h2>
-      <p>I would like to learn about programming and understand the programming languages till I become the best Programmer.</p>
-      <section>
-        <h2>My Hobbies</h2>
-        <div>
-          <p>Watching</p>
-          <p>Playing</p>
-          <p>Reading</p>
-        </div>
-      </section>
-
-      <h3>My hobbies</h3>
-      <ol>
-          <li>Learning programming</li>
-          <li>Playing football</li>
-          <li>Travelling</li>
-      </ol>
-      <section>
-        <h3>Some Facts</h3>
-        <p >10 &gt; 5</p>
-        <p>5 &lt; 1</p>
-      </section>
-    <h3>My Favourite Website</h3>
-    <ul>
-    <li><a href="https://www.google.com">Google</a></li>
-    <li><a href="https://www.youtube.com">Youtube</a></li>
-    </ul>
-    <footer>
-      <p>&copy;2026 Faith Chesire</p>
-    </footer>
-</body>
+     </nav>
+<footer>
+   <p>&copy;2026 Kenyatta University</p>
+</footer>
+   </body>
 </html>
